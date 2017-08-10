@@ -25,6 +25,8 @@ const service = serviceFactory('https://lc.gish.de/search/', serviceOptions);
 test.before(() => (unmocked ? record() : mock()));
 test.after(() => unmocked && persist());
 
+test.todo('mounts credentials plugin when params available');
+
 test.cb('loads search feed', (t) => {
   const query = { query: 'scherdel' };
   const options = { authType: 'basic' };

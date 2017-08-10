@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+    xmlns:ibmsc="http://www.ibm.com/search/content/2010"
+    xmlns:ibmss="http://www.ibm.com/search/social/2011"
+    xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:relevance="http://a9.com/-/opensearch/extensions/relevance/1.0/"
+    xmlns:snx="http://www.ibm.com/xmlns/prod/sn" xmlns:spelling="http://a9.com/-/opensearch/extensions/spelling/1.0/">
+    <title>foo bar</title>
+    <link
+        href="https://lc.gish.de/search/atom/mysearch/results?page=1&amp;ps=10&amp;query=foo%20bar" rel="self"/>
+    <updated>2017-08-10T16:31:06.610+02:00</updated>
+    <id>https://lc.gish.de/search/atom/mysearch/results?page=1&amp;ps=10&amp;query=foo%20bar</id>
+    <author>
+        <name>lc.gish.de</name>
+    </author>
+    <generator version="4.5">IBM Connections - Search</generator>
+    <link
+        href="https://lc.gish.de/search/atom/search?query=foo%20bar&amp;pageSize=0&amp;facet={&quot;id&quot;:&quot;Source&quot;,&quot;count&quot;:&quot;ALL&quot;}"
+        rel="http://www.ibm.com/xmlns/prod/sn/search/facet/source" type="application/atom+xml"/>
+    <link
+        href="https://lc.gish.de/search/atom/search?query=foo%20bar&amp;pageSize=0&amp;facet={&quot;depth&quot;:2,&quot;id&quot;:&quot;Date&quot;,&quot;count&quot;:&quot;ALL&quot;}"
+        rel="http://www.ibm.com/xmlns/prod/sn/search/facet/date" type="application/atom+xml"/>
+    <link
+        href="https://lc.gish.de/search/atom/search?query=foo%20bar&amp;pageSize=0&amp;facet={&quot;id&quot;:&quot;Tag&quot;,&quot;count&quot;:&quot;ALL&quot;}"
+        rel="http://www.ibm.com/xmlns/prod/sn/search/facet/tags" type="application/atom+xml"/>
+    <link
+        href="https://lc.gish.de/search/atom/search?query=foo%20bar&amp;pageSize=0&amp;facet={&quot;id&quot;:&quot;Person&quot;,&quot;count&quot;:&quot;ALL&quot;}"
+        rel="http://www.ibm.com/xmlns/prod/sn/search/facet/people" type="application/atom+xml"/>
+    <spelling:spelling>
+        <spelling:suggestion type="text">for bar</spelling:suggestion>
+        <spelling:prompt/>
+        <link href="https://lc.gish.de/search/atom/search?query=for bar" rel="spelling"/>
+    </spelling:spelling>
+    <openSearch:totalResults>4</openSearch:totalResults>
+    <openSearch:itemsPerPage>10</openSearch:itemsPerPage>
+    <openSearch:startIndex>1</openSearch:startIndex>
+    <openSearch:Query role="request" searchTerms="foo bar"/>
+    <entry>
+        <title type="html"><![CDATA[PDF9DB8_modeRewrite.pdf]]></title>
+        <link href="https://lc.gish.de/communities/service/html/communityview?communityUuid=6c54c8fa-1901-4b94-9379-4a513217f012#fullpageWidgetId=Waa88003f8f60_4f22_bb6d_1362a1db9c2a&amp;file=66d7eb46-a78e-4fa1-a617-ed39640309c8"/>
+        <link
+            href="https://lc.gish.de/files/basic/api/library/f7558981-2101-4da9-9c40-d448f6ec60ae/document/66d7eb46-a78e-4fa1-a617-ed39640309c8/entry"
+            rel="via" type="application/atom+xml"/>
+        <id>66d7eb46-a78e-4fa1-a617-ed39640309c8</id>
+        <updated>2015-01-18T11:06:48+01:00</updated>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/type" term="search"/>
+        <ibmsc:field id="container_type"><![CDATA[communityFiles]]></ibmsc:field>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/component" term="communities:files">
+            <ibmsc:field id="primaryComponent"><![CDATA[true]]></ibmsc:field>
+        </category>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/component" term="files"/>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/doctype" term="Document/File"/>
+        <ibmsc:field id="fileExtension"><![CDATA[pdf]]></ibmsc:field>
+        <snx:rank scheme="http://www.ibm.com/xmlns/prod/sn/comment">0</snx:rank>
+        <category
+            scheme="http://www.ibm.com/xmlns/prod/sn/accesscontrolled" term="public"/>
+        <snx:rank scheme="http://www.ibm.com/xmlns/prod/sn/recommendations">0</snx:rank>
+        <snx:communityUuid xmlns:snx="http://www.ibm.com/xmlns/prod/sn"><![CDATA[6c54c8fa-1901-4b94-9379-4a513217f012]]></snx:communityUuid>
+        <link
+            href="https://lc.gish.de/communities/service/atom/community/instance?communityUuid=6c54c8fa-1901-4b94-9379-4a513217f012"
+            rel="http://www.ibm.com/xmlns/prod/sn/container" type="application/atom+xml"/>
+        <link
+            href="https://lc.gish.de/communities/service/html/communityview?communityUuid=6c54c8fa-1901-4b94-9379-4a513217f012"
+            rel="http://www.ibm.com/xmlns/prod/sn/container" type="text/html"/>
+        <author>
+            <snx:userid>ED4659E8-5520-4CD0-89DD-CCFB138593D8</snx:userid>
+            <email>volker.dorna@gis-ag.com</email>
+            <snx:userState>active</snx:userState>
+            <name>Volker Dorna</name>
+        </author>
+        <relevance:score>1.1988372</relevance:score>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sugar_7_Partner_Technical_Training_28-AUG-2013_v3.pptx]]></title>
+        <link href="https://lc.gish.de/communities/service/html/communityview?communityUuid=bf14b273-396d-4997-8dd8-5765a17ca26e#fullpageWidgetId=Wa7f1adef0004_4ecd_b5b8_4061654489e3&amp;file=ee30e253-0541-4b78-8223-7e24b797ff37"/>
+        <link
+            href="https://lc.gish.de/files/basic/api/library/659f92f3-6a40-44f7-9bde-4182587797f5/document/ee30e253-0541-4b78-8223-7e24b797ff37/entry"
+            rel="via" type="application/atom+xml"/>
+        <id>ee30e253-0541-4b78-8223-7e24b797ff37</id>
+        <updated>2015-10-13T22:32:03+02:00</updated>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/type" term="search"/>
+        <ibmsc:field id="container_type"><![CDATA[communityFiles]]></ibmsc:field>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/component" term="communities:files">
+            <ibmsc:field id="primaryComponent"><![CDATA[true]]></ibmsc:field>
+        </category>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/component" term="files"/>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/doctype" term="Document/File"/>
+        <ibmsc:field id="fileExtension"><![CDATA[pptx]]></ibmsc:field>
+        <snx:rank scheme="http://www.ibm.com/xmlns/prod/sn/comment">0</snx:rank>
+        <category
+            scheme="http://www.ibm.com/xmlns/prod/sn/accesscontrolled" term="public"/>
+        <snx:rank scheme="http://www.ibm.com/xmlns/prod/sn/recommendations">0</snx:rank>
+        <snx:communityUuid xmlns:snx="http://www.ibm.com/xmlns/prod/sn"><![CDATA[bf14b273-396d-4997-8dd8-5765a17ca26e]]></snx:communityUuid>
+        <link
+            href="https://lc.gish.de/communities/service/atom/community/instance?communityUuid=bf14b273-396d-4997-8dd8-5765a17ca26e"
+            rel="http://www.ibm.com/xmlns/prod/sn/container" type="application/atom+xml"/>
+        <link
+            href="https://lc.gish.de/communities/service/html/communityview?communityUuid=bf14b273-396d-4997-8dd8-5765a17ca26e"
+            rel="http://www.ibm.com/xmlns/prod/sn/container" type="text/html"/>
+        <author>
+            <snx:userid>D62968AD-D83E-405A-9AB5-DE2736FB2F9F</snx:userid>
+            <email>elke.hildebrandt@gis-ag.com</email>
+            <snx:userState>active</snx:userState>
+            <name>Elke Hildebrandt</name>
+        </author>
+        <relevance:score>1.0896369</relevance:score>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache-HTTP-Server-Cookbook.pdf]]></title>
+        <link href="https://lc.gish.de/files/app/file/964892d0-be49-4a5e-9833-c4744fec3e1c"/>
+        <link
+            href="https://lc.gish.de/files/basic/api/library/810fd2d8-8af9-4d9a-af05-c325dbb4e7bb/document/964892d0-be49-4a5e-9833-c4744fec3e1c/entry"
+            rel="via" type="application/atom+xml"/>
+        <id>964892d0-be49-4a5e-9833-c4744fec3e1c</id>
+        <updated>2016-03-21T08:05:26+01:00</updated>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/type" term="search"/>
+        <ibmsc:field id="container_type"><![CDATA[stand-alone]]></ibmsc:field>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/component" term="files">
+            <ibmsc:field id="primaryComponent"><![CDATA[true]]></ibmsc:field>
+        </category>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/doctype" term="Document/File"/>
+        <ibmsc:field id="fileExtension"><![CDATA[pdf]]></ibmsc:field>
+        <category term="http"/>
+        <category term="cookbook"/>
+        <category term="documentation"/>
+        <category term="httpd"/>
+        <category term="apache"/>
+        <snx:rank scheme="http://www.ibm.com/xmlns/prod/sn/comment">0</snx:rank>
+        <category
+            scheme="http://www.ibm.com/xmlns/prod/sn/accesscontrolled" term="public"/>
+        <snx:rank scheme="http://www.ibm.com/xmlns/prod/sn/recommendations">0</snx:rank>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/mine" term="true"/>
+        <author>
+            <snx:userid>CE59D19A-EEBB-4C13-BFF4-112C66F38224</snx:userid>
+            <email>benjamin.kroeger@gis-ag.com</email>
+            <snx:userState>active</snx:userState>
+            <name>Benjamin Kroeger</name>
+        </author>
+        <relevance:score>0.8886703</relevance:score>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes Design Partner Call 27.06.2012 Infos für AppDev in Notes 8.5.4.pdf]]></title>
+        <link href="https://lc.gish.de/communities/service/html/communityview?communityUuid=884ada2d-758a-4260-a26c-8eff381e612e#fullpageWidgetId=Wa5051c123166_4f71_a16e_5bd2a3354d10&amp;file=4a84219e-2c0c-4e00-9606-9861e21c157c"/>
+        <link
+            href="https://lc.gish.de/files/basic/api/library/85a2b307-1db9-48fd-a750-1485e7a91585/document/4a84219e-2c0c-4e00-9606-9861e21c157c/entry"
+            rel="via" type="application/atom+xml"/>
+        <id>4a84219e-2c0c-4e00-9606-9861e21c157c</id>
+        <updated>2012-06-28T14:46:08+02:00</updated>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/type" term="search"/>
+        <ibmsc:field id="container_type"><![CDATA[communityFiles]]></ibmsc:field>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/component" term="communities:files">
+            <ibmsc:field id="primaryComponent"><![CDATA[true]]></ibmsc:field>
+        </category>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/component" term="files"/>
+        <category scheme="http://www.ibm.com/xmlns/prod/sn/doctype" term="Document/File"/>
+        <ibmsc:field id="fileExtension"><![CDATA[pdf]]></ibmsc:field>
+        <snx:rank scheme="http://www.ibm.com/xmlns/prod/sn/comment">0</snx:rank>
+        <category
+            scheme="http://www.ibm.com/xmlns/prod/sn/accesscontrolled" term="public"/>
+        <snx:rank scheme="http://www.ibm.com/xmlns/prod/sn/recommendations">0</snx:rank>
+        <snx:communityUuid xmlns:snx="http://www.ibm.com/xmlns/prod/sn"><![CDATA[884ada2d-758a-4260-a26c-8eff381e612e]]></snx:communityUuid>
+        <link
+            href="https://lc.gish.de/communities/service/atom/community/instance?communityUuid=884ada2d-758a-4260-a26c-8eff381e612e"
+            rel="http://www.ibm.com/xmlns/prod/sn/container" type="application/atom+xml"/>
+        <link
+            href="https://lc.gish.de/communities/service/html/communityview?communityUuid=884ada2d-758a-4260-a26c-8eff381e612e"
+            rel="http://www.ibm.com/xmlns/prod/sn/container" type="text/html"/>
+        <author>
+            <snx:userid>32AFF9F5-89B3-41CC-946B-9CEA3DE7A8D5</snx:userid>
+            <email>eckehard.ebeling@gis-ag.com</email>
+            <snx:userState>active</snx:userState>
+            <name>Eckehard Ebeling</name>
+        </author>
+        <relevance:score>0.5437745</relevance:score>
+    </entry>
+</feed>
