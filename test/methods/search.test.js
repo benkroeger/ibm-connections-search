@@ -1,5 +1,3 @@
-'use strict';
-
 // node core modules
 import fs from 'fs';
 import path from 'path';

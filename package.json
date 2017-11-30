@@ -4,25 +4,29 @@
   "description": "An IBM Connections Search API Wrapper",
   "main": "lib/index.js",
   "scripts": {
+    "coverage": "nyc npm test && nyc report --reporter=html",
+    "format": "prettier-eslint --write \"lib/**/*.js\" \"test/**/*.js\"",
+    "prelint": "npm run format",
+    "lint": "eslint --ignore-path .gitignore .",
+    "pretest": "npm run lint",
     "test": "ava --verbose",
-    "coverage": "nyc npm run test && nyc report --reporter=html",
-    "lint-fix": "eslint --ignore-path .gitignore --fix .",
-    "lint": "eslint --ignore-path .gitignore ."
+    "test:watch": "npm test -- --watch"
   },
   "dependencies": {
     "lodash": "4.17.4",
-    "oniyi-http-client": "1.1.1",
+    "oniyi-http-client": "1.2.0",
     "oniyi-http-plugin-credentials": "^1.0.0",
     "oniyi-http-plugin-format-url-template": "1.0.2",
     "oniyi-utils-xml": "1.1.0"
   },
   "devDependencies": {
-    "ava": "0.21.0",
-    "eslint": "3.15.0",
-    "eslint-config-oniyi": "4.4.0",
-    "eslint-plugin-ava": "4.2.1",
+    "ava": "^0.23.0",
+    "eslint": "^4.11.0",
+    "eslint-config-oniyi": "^5.0.2",
+    "eslint-plugin-ava": "^4.2.2",
     "nock": "9.0.14",
-    "nyc": "11.1.0"
+    "nyc": "^11.3.0",
+    "prettier-eslint-cli": "^4.4.0"
   },
   "repository": {
     "type": "git",
