@@ -26,10 +26,11 @@ test.cb('makes request and parses succesful response', (t) => {
 
   const query = {};
   const options = {};
-  search.call(service, query, options, (error, result) => {
+  search.call(service, query, options, (error, { totalResults, entries }) => {
     t.ifError(error);
-    t.true(Array.isArray(result));
-    t.is(result.length, 4);
+    t.is(totalResults, 4);
+    t.true(Array.isArray(entries));
+    t.is(entries.length, 4);
     t.end();
   });
 });

@@ -28,11 +28,12 @@ test.todo('mounts credentials plugin when params available');
 test.cb('loads search feed', (t) => {
   const query = { query: 'scherdel' };
   const options = { authType: 'basic' };
-  service.search(query, options, (error, results) => {
+  service.search(query, options, (error, { totalResults, entries }) => {
     // console.log(error, results);
     t.ifError(error);
-    t.true(Array.isArray(results));
-    t.is(results.length, 10);
+    t.is(totalResults, 131);
+    t.true(Array.isArray(entries));
+    t.is(entries.length, 10);
     t.end();
   });
 });
