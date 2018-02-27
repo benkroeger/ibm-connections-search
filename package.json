@@ -1,6 +1,6 @@
 {
   "name": "ibm-connections-search",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An IBM Connections Search API Wrapper",
   "main": "lib/index.js",
   "scripts": {
