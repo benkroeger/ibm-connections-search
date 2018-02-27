@@ -31,7 +31,7 @@ test.cb('loads search feed', (t) => {
   service.search(query, options, (error, { totalResults, entries }) => {
     // console.log(error, results);
     t.ifError(error);
-    t.is(totalResults, 131);
+    t.is(totalResults, 240);
     t.true(Array.isArray(entries));
     t.is(entries.length, 10);
     t.end();
